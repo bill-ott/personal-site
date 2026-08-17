@@ -1,5 +1,10 @@
 # CHANGE LOG
 
+## v0.5.0
+- remove jp lang support
+- update contact information
+- remove unused components/files
+
 ## v0.4.0
 - add jp lang support
 

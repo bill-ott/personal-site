@@ -1,4 +1,4 @@
-import React, { useRef, useState }  from 'react';
+import { useRef, useState }  from 'react';
 import emailjs from 'emailjs-com';
 
 import './contact-form.scss';
@@ -34,7 +34,7 @@ export default function ContactForm() {
       )}
       {hadError && (
         <div className='contact-form__submit-message'>
-          Oh no! Issue sending message - please try again :(
+          Oh no! Issue sending message - please try again.
         </div>
       )}
       <label className='contact-form__label'>Name</label>

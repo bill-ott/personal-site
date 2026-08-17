@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 import './contact.scss';
@@ -13,7 +12,7 @@ export default function Contact() {
             <div className="contact__contact-icons">
                 <a
                     className="contact__icon"
-                    href="mailto:williamrichardott@icloud.com"
+                    href="mailto:bill.r.ott18@gmail.com"
                     rel="noreferrer">
                     <FaEnvelope 
                         className="contact__icon-email" 
@@ -22,7 +21,7 @@ export default function Contact() {
                 </a>
                 <a
                     className="contact__icon"
-                    href="https://github.com/billyott/"
+                    href="https://github.com/bill-ott/"
                     target="_blank"
                     rel="noreferrer">
                     <FaGithub
@@ -32,7 +31,7 @@ export default function Contact() {
                 </a>
                 <a
                     className="contact__icon"
-                    href="https://www.linkedin.com/in/billyott/"
+                    href="https://www.linkedin.com/in/billott1/"
                     target="_blank"
                     rel="noreferrer">
                     <FaLinkedin
